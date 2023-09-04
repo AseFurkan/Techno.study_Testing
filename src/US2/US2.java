@@ -25,6 +25,7 @@ public class US2 extends BaseDriver {
         loginButton.click();
         wait.until(ExpectedConditions.urlToBe("https://campus.techno.study/"));
         Assert.assertTrue("URL doğrulanamadı", driver.getCurrentUrl().equals("https://campus.techno.study/"));
+        System.out.println("Login sayfasına başarı ile giriş yapıldı");
 
     }
 }
