@@ -22,6 +22,7 @@ public class US1 extends BaseDriver {
 
         driver.get("https://techno.study/tr/");
         MyFunc.bekle(2);
+
         
         coursesButton();
         WebElement courseSdet = driver.findElement(By.xpath("(//div[@class='t966__menu-item-title t-name'])[1]"));
